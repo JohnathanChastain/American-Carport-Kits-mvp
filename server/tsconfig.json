@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2020",                     /* Set the JavaScript language version for emitted JavaScript. */
+    "module": "CommonJS",                   /* Use CommonJS module system for Node.js compatibility. */
+    "lib": ["ES2020"],                      /* Include library declarations for ES2020. */
+    "allowJs": false,                       /* Disallow JavaScript files in the project. */
+    "strict": true,                         /* Enable all strict type-checking options. */
+    "esModuleInterop": true,                /* Enable compatibility with CommonJS modules. */
+    "forceConsistentCasingInFileNames": true, /* Ensure consistent casing in imports. */
+    "skipLibCheck": true,                   /* Skip type checking of declaration files. */
+
+    /* Modules */
+    "moduleResolution": "node",            /* Use Node.js module resolution. */
+    "rootDir": "./src",                    /* Specify the root folder for TypeScript files. */
+    "outDir": "./dist",                    /* Specify the output folder for compiled JavaScript files. */
+    "resolveJsonModule": true,             /* Allow importing JSON files. */
+
+    /* Emit */
+    "declaration": true,                   /* Generate .d.ts files for TypeScript files. */
+    "sourceMap": true,                     /* Generate source maps for debugging. */
+
+    /* Type Checking */
+    "noImplicitAny": true,                 /* Raise an error on variables with an implicit `any` type. */
+    "strictNullChecks": true,              /* Ensure `null` and `undefined` are handled explicitly. */
+    "noUnusedLocals": true,                /* Raise an error for unused local variables. */
+    "noUnusedParameters": true,            /* Raise an error for unused function parameters. */
+    "noImplicitReturns": true,             /* Raise an error for functions that don't explicitly return a value. */
+    "noFallthroughCasesInSwitch": true     /* Raise an error for fallthrough cases in switch statements. */
+  },
+  "include": ["src/**/*"],                 /* Include all TypeScript files in the `src` folder. */
+  "exclude": ["node_modules", "dist"]      /* Exclude `node_modules` and the output folder. */
+}
